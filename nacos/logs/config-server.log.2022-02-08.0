@@ -1,0 +1,234 @@
+2022-02-08 18:00:38,324 INFO notifyConnectTimeout:200
+
+2022-02-08 18:00:38,328 INFO notifySocketTimeout:8000
+
+2022-02-08 18:00:38,328 INFO isHealthCheck:true
+
+2022-02-08 18:00:38,328 INFO maxHealthCheckFailCount:12
+
+2022-02-08 18:00:38,328 INFO maxContent:10485760
+
+2022-02-08 18:00:57,207 INFO Schema 'NACOS' already exists.
+
+2022-02-08 18:00:57,595 INFO Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:58,004 INFO Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:58,185 INFO Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:58,342 INFO Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:58,483 INFO Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:58,631 INFO Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:58,780 INFO Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:58,928 INFO Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:59,274 INFO Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:59,604 INFO Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:59,769 INFO Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2022-02-08 18:00:59,959 INFO Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2022-02-08 18:01:00,230 INFO Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2022-02-08 18:01:01,343 INFO Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2022-02-08 18:01:01,707 INFO The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL210705092945510' defined on 'USERS'.
+
+2022-02-08 18:01:17,550 INFO ServerListService address-server port:8848
+
+2022-02-08 18:01:17,551 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2022-02-08 18:01:17,554 WARN [serverlist] updated to [10.8.97.70]
+
+2022-02-08 18:01:18,466 WARN DumpService start
+
+2022-02-08 18:01:18,471 INFO start clear all config-info.
+
+2022-02-08 18:01:18,759 WARN clear all config-info failed.
+
+2022-02-08 18:01:18,759 WARN clear all config-info-tenant failed.
+
+2022-02-08 18:01:19,073 INFO start clear all config-info-beta.
+
+2022-02-08 18:01:19,073 WARN clear all config-info-beta failed.
+
+2022-02-08 18:01:19,073 WARN clear all config-info-beta-tenant failed.
+
+2022-02-08 18:01:19,088 INFO start clear all config-info-tag.
+
+2022-02-08 18:01:19,088 WARN clear all config-info-tag failed.
+
+2022-02-08 18:01:19,088 WARN clear all config-info-tag-tenant failed.
+
+2022-02-08 20:54:29,483 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:13
+
+2022-02-08 20:54:34,485 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:14
+
+2022-02-08 20:54:39,490 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:15
+
+2022-02-08 20:54:44,503 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:16
+
+2022-02-08 20:54:49,506 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:17
+
+2022-02-08 20:54:54,527 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:18
+
+2022-02-08 20:54:59,523 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:19
+
+2022-02-08 20:55:04,529 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:20
+
+2022-02-08 20:55:09,534 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:21
+
+2022-02-08 20:55:14,551 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:22
+
+2022-02-08 20:55:19,550 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:23
+
+2022-02-08 20:55:24,561 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:24
+
+2022-02-08 20:55:29,572 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:25
+
+2022-02-08 20:55:34,574 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:26
+
+2022-02-08 20:55:39,585 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:27
+
+2022-02-08 20:55:44,586 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:28
+
+2022-02-08 20:55:49,598 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:29
+
+2022-02-08 20:55:54,602 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:30
+
+2022-02-08 20:55:59,603 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:31
+
+2022-02-08 21:37:37,810 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:32
+
+2022-02-08 21:37:42,810 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:33
+
+2022-02-08 21:37:47,819 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:34
+
+2022-02-08 21:37:52,827 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:35
+
+2022-02-08 21:37:57,831 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:36
+
+2022-02-08 21:38:02,847 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:37
+
+2022-02-08 21:38:07,853 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:38
+
+2022-02-08 21:38:12,870 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:39
+
+2022-02-08 21:38:17,864 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:40
+
+2022-02-08 21:38:22,880 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:41
+
+2022-02-08 21:38:27,891 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:42
+
+2022-02-08 21:38:32,900 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:43
+
+2022-02-08 21:38:37,914 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:44
+
+2022-02-08 21:38:42,921 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:45
+
+2022-02-08 21:38:47,923 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:46
+
+2022-02-08 21:38:52,931 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:47
+
+2022-02-08 21:38:57,940 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:48
+
+2022-02-08 21:39:02,958 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:49
+
+2022-02-08 21:39:07,953 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:50
+
+2022-02-08 21:39:12,953 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:51
+
+2022-02-08 21:39:17,963 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:52
+
+2022-02-08 21:39:22,969 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:53
+
+2022-02-08 21:39:27,985 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:54
+
+2022-02-08 21:39:32,989 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:55
+
+2022-02-08 21:39:38,005 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:56
+
+2022-02-08 21:39:43,016 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:57
+
+2022-02-08 21:39:48,038 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:58
+
+2022-02-08 21:39:53,058 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:59
+
+2022-02-08 21:39:58,059 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:60
+
+2022-02-08 21:40:03,081 ERROR unhealthIp:10.8.97.70:8848, unhealthCount:61
+
+2022-02-08 21:40:23,237 INFO notifyConnectTimeout:200
+
+2022-02-08 21:40:23,239 INFO notifySocketTimeout:8000
+
+2022-02-08 21:40:23,239 INFO isHealthCheck:true
+
+2022-02-08 21:40:23,239 INFO maxHealthCheckFailCount:12
+
+2022-02-08 21:40:23,239 INFO maxContent:10485760
+
+2022-02-08 21:40:24,997 INFO Schema 'NACOS' already exists.
+
+2022-02-08 21:40:25,191 INFO Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:25,504 INFO Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:25,606 INFO Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:25,692 INFO Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:25,789 INFO Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:25,862 INFO Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:25,948 INFO Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:26,027 INFO Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:26,109 INFO Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:26,225 INFO Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:26,373 INFO Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:26,447 INFO Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:26,546 INFO Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:26,628 INFO Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2022-02-08 21:40:26,830 INFO The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL210705092945510' defined on 'USERS'.
+
+2022-02-08 21:40:28,022 INFO ServerListService address-server port:8848
+
+2022-02-08 21:40:28,023 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2022-02-08 21:40:28,024 WARN [serverlist] updated to [192.168.0.102]
+
+2022-02-08 21:40:28,278 WARN DumpService start
+
+2022-02-08 21:40:28,291 INFO start clear all config-info.
+
+2022-02-08 21:40:28,310 WARN clear all config-info failed.
+
+2022-02-08 21:40:28,310 WARN clear all config-info-tenant failed.
+
+2022-02-08 21:40:28,526 INFO start clear all config-info-beta.
+
+2022-02-08 21:40:28,526 WARN clear all config-info-beta failed.
+
+2022-02-08 21:40:28,526 WARN clear all config-info-beta-tenant failed.
+
+2022-02-08 21:40:28,587 INFO start clear all config-info-tag.
+
+2022-02-08 21:40:28,587 WARN clear all config-info-tag failed.
+
+2022-02-08 21:40:28,587 WARN clear all config-info-tag-tenant failed.
+

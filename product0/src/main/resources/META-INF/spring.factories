@@ -1,0 +1,14 @@
+
+# 自定义 初始化器
+org.springframework.context.ApplicationContextInitializer=\
+com.demo.pro0.utils.MyApplicationContextInitializer
+
+# 自定义 异常报告器
+org.springframework.boot.SpringBootExceptionReporter=\
+com.demo.pro0.utils.MyExceptionReporter
+
+
+# 自定义 监听器
+org.springframework.context.ApplicationListener=\
+com.demo.pro0.utils.MyApplicationListenerDemo1,\
+com.demo.pro0.utils.DemoListener

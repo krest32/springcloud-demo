@@ -1,0 +1,54 @@
+2022-02-09 09:50:54,284 INFO DEFAULT_GROUP@@con {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 09:50:54,284 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@con, ips: 10.8.97.28:8002_true,
+
+2022-02-09 09:51:00,940 INFO DEFAULT_GROUP@@pro {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 09:51:00,940 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@pro, ips: 10.8.97.28:8003_true,
+
+2022-02-09 09:54:13,804 INFO DEFAULT_GROUP@@con {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 09:54:13,804 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@con, ips: 10.8.97.28:8002_true,10.8.97.28:8004_true,
+
+2022-02-09 09:55:35,263 INFO DEFAULT_GROUP@@pro {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 09:55:35,263 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@pro, ips: 10.8.97.28:8001_true,10.8.97.28:8003_true,
+
+2022-02-09 09:57:20,427 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 09:57:20,427 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 10.8.97.28:8005_true,
+
+2022-02-09 09:59:27,798 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 10.8.97.28:8005_true,
+
+2022-02-09 10:01:22,048 INFO {POS} {IP-DISABLED} valid: 10.8.97.28:8001@DEFAULT@DEFAULT_GROUP@@pro, region: unknown, msg: client timeout after 15000, last beat: 1644372064279
+
+2022-02-09 10:01:37,825 INFO DEFAULT_GROUP@@pro {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.8.97.28:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-09 10:01:37,825 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@pro, ips: 10.8.97.28:8003_true,
+
+2022-02-09 10:05:05,010 INFO DEFAULT_GROUP@@pro {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 10:05:05,010 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@pro, ips: 10.8.97.28:8001_true,10.8.97.28:8003_true,
+
+2022-02-09 10:11:00,764 INFO DEFAULT_GROUP@@con {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [10.8.97.28:8002:unknown:DEFAULT_1.0_true_false_DEFAULT, 10.8.97.28:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 10:11:00,764 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@con, ips: 10.8.97.28:8002_true,10.8.97.28:8004_true,
+
+2022-02-09 10:11:00,804 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 10:11:00,812 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 10.8.97.28:8005_true,
+
+2022-02-09 10:20:20,783 INFO DEFAULT_GROUP@@pro {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 10:20:20,783 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@pro, ips: 10.8.97.28:8003_true,
+
+2022-02-09 10:20:26,893 INFO {POS} {IP-DISABLED} valid: 10.8.97.28:8002@DEFAULT@DEFAULT_GROUP@@con, region: unknown, msg: client timeout after 15000, last beat: 1644373209637
+
+2022-02-09 10:20:42,098 INFO DEFAULT_GROUP@@con {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.8.97.28:8002:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-09 10:20:42,098 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@con, ips: 10.8.97.28:8004_true,
+
+2022-02-09 10:20:44,942 INFO DEFAULT_GROUP@@con {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.8.97.28:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-09 10:20:44,942 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@con, ips: 10.8.97.28:8002_true,10.8.97.28:8004_true,
+

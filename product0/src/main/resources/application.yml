@@ -1,0 +1,14 @@
+server:
+#  port: 8003
+  port: 8080
+
+spring:
+  application:
+    name: pro
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
