@@ -1,1 +1,6 @@
 /.idea/
+target/
+build/
+build_eclipse/
+out/
+
