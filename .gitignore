@@ -3,4 +3,6 @@ target/
 build/
 build_eclipse/
 out/
+logs/
 
+*.iml
