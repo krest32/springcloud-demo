@@ -16,10 +16,10 @@ import org.springframework.context.annotation.Configuration;
  * 选取最少并发量请求的服务器（BestAvailableRule）
  */
 @Configuration
-public class MySelfRule
-{
+public class MySelfRule {
+
     @Bean
-    public IRule myRule(){
+    public IRule myRule() {
         //定义为随机调用策略
         return new RoundRobinRule();
         //  选取最少并发量请求的服务器
