@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Wed Feb 09 10:10:53 CST 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-017e-dc3f-7474-000013cf0990 
-on database directory D:\JavaTool\nacos-server-1.1.4\nacos\data\derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@685f4c2e 
-Loaded from jar:file:/D:/JavaTool/nacos-server-1.1.4/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.10.1.1.jar!/
+Thu Sep 07 11:30:50 CST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-018a-6db1-4ac0-00001176d260 
+on database directory C:\Krest WorkSpace\Own Code\springcloud-demo\nacos\data\derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@68c4039c 
+Loaded from jar:file:/C:/Krest%20WorkSpace/Own%20Code/springcloud-demo/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.10.1.1.jar!/
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_181-b13
-user.dir=D:\JavaTool\nacos-server-1.1.4\nacos\bin
+java.runtime.version=11.0.14+8-LTS-263
+user.dir=C:\Krest WorkSpace\Own Code\springcloud-demo\nacos\bin
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0

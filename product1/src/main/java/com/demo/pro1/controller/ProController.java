@@ -13,4 +13,10 @@ public class ProController {
     public String pro1(@PathVariable String key){
         return key+ " pro1";
     }
+
+    @GetMapping("search/{key}")
+    public String memberinfo(@PathVariable String key) {
+        return key + " search0";
+    }
+
 }

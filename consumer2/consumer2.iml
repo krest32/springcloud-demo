@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
-  <component name="FacetManager">
-    <facet type="Spring" name="Spring">
-      <configuration />
-    </facet>
-  </component>
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="3935cc72-ad75-4177-9255-b639f08f255a" />
+    <option name="uniqueId" value="5d76a2f5-1dd5-49b0-a8aa-554414e5d956" />
   </component>
 </module>

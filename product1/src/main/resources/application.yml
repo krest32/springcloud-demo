@@ -1,13 +1,17 @@
 server:
-  port: 8001
+  port: 8003
 
 
 spring:
   application:
     name: pro
   cloud:
-    register:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
 
-#    nacos:
-#      discovery:
-#        server-addr: localhost:8848
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  cloud:
+    subscribed-services: pro,con
