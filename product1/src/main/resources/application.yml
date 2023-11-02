@@ -5,13 +5,13 @@ server:
 spring:
   application:
     name: pro
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
 
-dubbo:
-  registry:
-    address: spring-cloud://localhost
-  cloud:
-    subscribed-services: pro,con
+#dubbo:
+#  registry:
+#    address: spring-cloud://localhost
+#  cloud:
+#    subscribed-services: pro,con

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableFeignClients
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @ComponentScan(basePackages = {"com.demo"})
 @RibbonClient(name = "pro", configuration= MySelfRule.class)
 public class ConBoot1 {

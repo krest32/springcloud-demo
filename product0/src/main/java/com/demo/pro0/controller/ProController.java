@@ -1,5 +1,6 @@
 package com.demo.pro0.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.demo.pro0.entity.Response;
 import com.demo.pro0.entity.User;
@@ -20,7 +21,7 @@ public class ProController {
     @GetMapping("mongodb")
     public String testMongoDB() {
         List<User> userList = mongoTemplate.findAll(User.class);
-        return JSONObject.toJSONString(userList);
+        return JSON.toJSONString(userList);
     }
 
 
@@ -39,7 +40,7 @@ public class ProController {
         Response response = new Response();
         response.setCode(200);
         response.setMsg("hello");
-        String result = JSONObject.toJSONString(response);
+        String result = JSON.toJSONString(response);
         System.out.println(result);
         return result;
     }

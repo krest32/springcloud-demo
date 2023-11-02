@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @Component
-@FeignClient(value = "pro", fallback = FallBackClient.class)
+@FeignClient(value = "pro", fallback = FallBackClient.class, url = "http://localhost:8003")
 public interface ProClient {
 
     @GetMapping("/pro/{key}")
