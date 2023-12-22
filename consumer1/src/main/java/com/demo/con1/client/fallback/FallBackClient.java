@@ -15,7 +15,7 @@ public class FallBackClient implements ProClient {
 
     @Override
     public String memberinfo(String key) {
-        return null;
+        return "member info null";
     }
 
 
